@@ -1,0 +1,86 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap";
+@import "font-awesome";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+
+/* app/assets/stylesheets/application.css */
+.cocktail-card {
+  width: 200px;
+  height: 300px;
+  perspective: 1000px;
+  margin: 10px;
+}
+
+.cocktail-card-inner {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.cocktail-card:hover .cocktail-card-inner {
+  transform: rotateY(180deg);
+}
+
+.cocktail-card-front,
+.cocktail-card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.cocktail-card-front {
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cocktail-card-back {
+  background-color: #e0e0e0;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cocktail-details {
+  text-align: center;
+}
+
+.cocktail-ingredients {
+  display: none; /* Initially hide ingredients */
+}
+
+.cocktail-card:hover .cocktail-ingredients {
+  display: block; /* Display ingredients on hover */
+}
+
+/* app/assets/stylesheets/application.css */
+.cocktail-image {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+
+.cocktail-card.is-flipped .cocktail-card-inner {
+  transform: rotateY(180deg);
+}
+
+body{
+  padding: 20px;
+}

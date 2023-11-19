@@ -1,0 +1,25 @@
+<div class="container mt-5">
+  <h1 class="mb-4">Please find all our cocktails below:</h1>
+
+  <div class="row">
+    <% @cocktails.each do |cocktail| %>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <% if cocktail.image.present? %>
+            <%= link_to cocktail_path(cocktail) do %>
+              <%= image_tag(cocktail.image.url, class: 'card-img-top img-fluid') %>
+            <% end %>
+          <% end %>
+          <div class="card-body">
+            <h5 class="card-title"><%= link_to cocktail.name, cocktail %></h5>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="mt-4">
+    <%= link_to 'New Cocktail', new_cocktail_path, class: 'btn btn-primary' %>
+    <%= link_to 'Back to Home Page', root_path, class: 'btn btn-secondary ml-2' %>
+  </div>
+</div>

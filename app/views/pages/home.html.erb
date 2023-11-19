@@ -1,0 +1,41 @@
+<h1>Welcome to My Cocktail App!</h1>
+<div class="cocktail-cards">
+  <% @cocktails.each do |cocktail| %>
+    <div class="cocktail-card">
+      <div class="cocktail-card-inner">
+        <div class="cocktail-card-front">
+          <%= link_to cocktail_path(cocktail) do %>
+            <%= image_tag('mojito.jpg', class: 'cocktail-image') %>
+          <% end %>
+        </div>
+        <div class="cocktail-card-back">
+          <div class="cocktail-details">
+            <h3><%= cocktail.name %></h3>
+            <div class="cocktail-ingredients">
+              <h4>Ingredients:</h4>
+              <ul>
+                <% cocktail.ingredients.each do |ingredient| %>
+                  <li><%= ingredient.name %></li>
+                <% end %>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
+
+<%= link_to 'View All Cocktails', cocktails_path, class: 'btn btn-primary mt-3' %>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var cards = document.querySelectorAll(".cocktail-card");
+
+    cards.forEach(function (card) {
+      card.addEventListener("click", function () {
+        card.classList.toggle("is-flipped");
+      });
+    });
+  });
+</script>

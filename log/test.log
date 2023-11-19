@@ -1,0 +1,229 @@
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2441777118843485115)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (12.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.1ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(2441777118843485115)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.5ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "schema_sha1"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.3ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "schema_sha1"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.5ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "schema_sha1"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (54.3ms)[0m  [1m[35mDROP DATABASE IF EXISTS "rails_mister_cocktail_test"[0m
+  [1m[35m (51.1ms)[0m  [1m[35mCREATE DATABASE "rails_mister_cocktail_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "cocktails" CASCADE[0m
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE TABLE "cocktails" ("id" bigserial primary key, "name" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "doses" CASCADE[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "doses" ("id" bigserial primary key, "description" character varying, "cocktail_id" bigint NOT NULL, "ingredient_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE INDEX "index_doses_on_cocktail_id" ON "doses" ("cocktail_id")[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE INDEX "index_doses_on_ingredient_id" ON "doses" ("ingredient_id")[0m
+  [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "ingredients" CASCADE[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "ingredients" ("id" bigserial primary key, "name" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (1.5ms)[0m  [1m[35mALTER TABLE "doses" ADD CONSTRAINT "fk_rails_48b6f209c2"
+FOREIGN KEY ("cocktail_id")
+  REFERENCES "cocktails" ("id")
+[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "doses" ADD CONSTRAINT "fk_rails_961afcf26a"
+FOREIGN KEY ("ingredient_id")
+  REFERENCES "ingredients" ("id")
+[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20231119151336)[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20231119151236),
+(20231119151220);[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::InternalMetadata Create (0.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ('environment', 'test', '2023-11-19 15:19:11.078755', '2023-11-19 15:19:11.078757') RETURNING "key"[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "schema_sha1"]]
+  [1m[36mActiveRecord::InternalMetadata Create (0.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ('schema_sha1', '5488b7309bc6db69f3d12e796c06f1341852507b', '2023-11-19 15:19:11.079412', '2023-11-19 15:19:11.079413') RETURNING "key"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (4.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCocktail Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "cocktails" WHERE "cocktails"."name" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCocktail Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "cocktails" WHERE "cocktails"."name" = $1 LIMIT $2[0m  [["name", "Mojito"], ["LIMIT", 1]]
+  [1m[36mCocktail Create (0.2ms)[0m  [1m[32mINSERT INTO "cocktails" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Mojito"], ["created_at", "2023-11-19 15:19:11.148293"], ["updated_at", "2023-11-19 15:19:11.148293"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mCocktail Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "cocktails" WHERE "cocktails"."name" = $1 LIMIT $2[0m  [["name", "Mojito"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCocktail Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "cocktails" WHERE "cocktails"."name" = $1 LIMIT $2[0m  [["name", "Mojito"], ["LIMIT", 1]]
+  [1m[36mCocktail Create (0.1ms)[0m  [1m[32mINSERT INTO "cocktails" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Mojito"], ["created_at", "2023-11-19 15:19:11.165581"], ["updated_at", "2023-11-19 15:19:11.165581"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mIngredient Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "ingredients" WHERE "ingredients"."name" = $1 LIMIT $2[0m  [["name", "ice"], ["LIMIT", 1]]
+  [1m[36mIngredient Create (0.1ms)[0m  [1m[32mINSERT INTO "ingredients" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "ice"], ["created_at", "2023-11-19 15:19:11.170407"], ["updated_at", "2023-11-19 15:19:11.170407"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mDose Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "doses" WHERE "doses"."cocktail_id" = $1 AND "doses"."ingredient_id" = $2 LIMIT $3[0m  [["cocktail_id", 2], ["ingredient_id", 1], ["LIMIT", 1]]
+  [1m[36mDose Create (0.3ms)[0m  [1m[32mINSERT INTO "doses" ("description", "cocktail_id", "ingredient_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["description", "A lot!"], ["cocktail_id", 2], ["ingredient_id", 1], ["created_at", "2023-11-19 15:19:11.176551"], ["updated_at", "2023-11-19 15:19:11.176551"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mDose Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "doses"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mDose Load (0.0ms)[0m  [1m[34mSELECT "doses".* FROM "doses" WHERE "doses"."cocktail_id" = $1[0m  [["cocktail_id", 2]]
+  [1m[36mDose Destroy (0.1ms)[0m  [1m[31mDELETE FROM "doses" WHERE "doses"."id" = $1[0m  [["id", 1]]
+  [1m[36mCocktail Destroy (0.1ms)[0m  [1m[31mDELETE FROM "cocktails" WHERE "cocktails"."id" = $1[0m  [["id", 2]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mDose Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "doses"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCocktail Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "cocktails" WHERE "cocktails"."name" = $1 LIMIT $2[0m  [["name", "Mojito"], ["LIMIT", 1]]
+  [1m[36mCocktail Create (0.1ms)[0m  [1m[32mINSERT INTO "cocktails" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Mojito"], ["created_at", "2023-11-19 15:19:11.181715"], ["updated_at", "2023-11-19 15:19:11.181715"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mIngredient Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "ingredients" INNER JOIN "doses" ON "ingredients"."id" = "doses"."ingredient_id" WHERE "doses"."cocktail_id" = $1[0m  [["cocktail_id", 3]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mIngredient Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "ingredients" WHERE "ingredients"."name" = $1 LIMIT $2[0m  [["name", "ice"], ["LIMIT", 1]]
+  [1m[36mIngredient Create (0.1ms)[0m  [1m[32mINSERT INTO "ingredients" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "ice"], ["created_at", "2023-11-19 15:19:11.187679"], ["updated_at", "2023-11-19 15:19:11.187679"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mDose Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "doses" WHERE "doses"."cocktail_id" = $1 AND "doses"."ingredient_id" = $2 LIMIT $3[0m  [["cocktail_id", 3], ["ingredient_id", 2], ["LIMIT", 1]]
+  [1m[36mDose Create (0.1ms)[0m  [1m[32mINSERT INTO "doses" ("description", "cocktail_id", "ingredient_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["description", "A lot!"], ["cocktail_id", 3], ["ingredient_id", 2], ["created_at", "2023-11-19 15:19:11.188762"], ["updated_at", "2023-11-19 15:19:11.188762"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mIngredient Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "ingredients" INNER JOIN "doses" ON "ingredients"."id" = "doses"."ingredient_id" WHERE "doses"."cocktail_id" = $1[0m  [["cocktail_id", 3]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mIngredient Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "ingredients" WHERE "ingredients"."name" = $1 LIMIT $2[0m  [["name", "lemon"], ["LIMIT", 1]]
+  [1m[36mIngredient Create (0.0ms)[0m  [1m[32mINSERT INTO "ingredients" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "lemon"], ["created_at", "2023-11-19 15:19:11.190654"], ["updated_at", "2023-11-19 15:19:11.190654"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCocktail Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "cocktails" WHERE "cocktails"."name" = $1 LIMIT $2[0m  [["name", "Mojito"], ["LIMIT", 1]]
+  [1m[36mCocktail Create (0.0ms)[0m  [1m[32mINSERT INTO "cocktails" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Mojito"], ["created_at", "2023-11-19 15:19:11.191264"], ["updated_at", "2023-11-19 15:19:11.191264"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mDose Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "doses" WHERE "doses"."cocktail_id" = $1 AND "doses"."ingredient_id" = $2 LIMIT $3[0m  [["cocktail_id", 4], ["ingredient_id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCocktail Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "cocktails" WHERE "cocktails"."name" = $1 LIMIT $2[0m  [["name", "Mojito"], ["LIMIT", 1]]
+  [1m[36mCocktail Create (0.0ms)[0m  [1m[32mINSERT INTO "cocktails" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Mojito"], ["created_at", "2023-11-19 15:19:11.192354"], ["updated_at", "2023-11-19 15:19:11.192354"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mIngredient Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "ingredients" WHERE "ingredients"."name" = $1 LIMIT $2[0m  [["name", "lemon"], ["LIMIT", 1]]
+  [1m[36mIngredient Create (0.0ms)[0m  [1m[32mINSERT INTO "ingredients" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "lemon"], ["created_at", "2023-11-19 15:19:11.193145"], ["updated_at", "2023-11-19 15:19:11.193145"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCocktail Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "cocktails" WHERE "cocktails"."name" = $1 LIMIT $2[0m  [["name", "Mojito"], ["LIMIT", 1]]
+  [1m[36mCocktail Create (0.0ms)[0m  [1m[32mINSERT INTO "cocktails" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Mojito"], ["created_at", "2023-11-19 15:19:11.193908"], ["updated_at", "2023-11-19 15:19:11.193908"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mIngredient Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "ingredients" WHERE "ingredients"."name" = $1 LIMIT $2[0m  [["name", "lemon"], ["LIMIT", 1]]
+  [1m[36mIngredient Create (0.0ms)[0m  [1m[32mINSERT INTO "ingredients" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "lemon"], ["created_at", "2023-11-19 15:19:11.194391"], ["updated_at", "2023-11-19 15:19:11.194391"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mDose Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "doses" WHERE "doses"."cocktail_id" IS NULL AND "doses"."ingredient_id" = $1 LIMIT $2[0m  [["ingredient_id", 5], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCocktail Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "cocktails" WHERE "cocktails"."name" = $1 LIMIT $2[0m  [["name", "Mojito"], ["LIMIT", 1]]
+  [1m[36mCocktail Create (0.0ms)[0m  [1m[32mINSERT INTO "cocktails" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Mojito"], ["created_at", "2023-11-19 15:19:11.195361"], ["updated_at", "2023-11-19 15:19:11.195361"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mIngredient Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "ingredients" WHERE "ingredients"."name" = $1 LIMIT $2[0m  [["name", "lemon"], ["LIMIT", 1]]
+  [1m[36mIngredient Create (0.0ms)[0m  [1m[32mINSERT INTO "ingredients" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "lemon"], ["created_at", "2023-11-19 15:19:11.195826"], ["updated_at", "2023-11-19 15:19:11.195826"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mDose Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "doses" WHERE "doses"."cocktail_id" = $1 AND "doses"."ingredient_id" IS NULL LIMIT $2[0m  [["cocktail_id", 7], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCocktail Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "cocktails" WHERE "cocktails"."name" = $1 LIMIT $2[0m  [["name", "Mojito"], ["LIMIT", 1]]
+  [1m[36mCocktail Create (0.0ms)[0m  [1m[32mINSERT INTO "cocktails" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Mojito"], ["created_at", "2023-11-19 15:19:11.196795"], ["updated_at", "2023-11-19 15:19:11.196795"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mIngredient Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "ingredients" WHERE "ingredients"."name" = $1 LIMIT $2[0m  [["name", "lemon"], ["LIMIT", 1]]
+  [1m[36mIngredient Create (0.0ms)[0m  [1m[32mINSERT INTO "ingredients" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "lemon"], ["created_at", "2023-11-19 15:19:11.197252"], ["updated_at", "2023-11-19 15:19:11.197252"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mDose Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "doses" WHERE "doses"."cocktail_id" = $1 AND "doses"."ingredient_id" = $2 LIMIT $3[0m  [["cocktail_id", 8], ["ingredient_id", 7], ["LIMIT", 1]]
+  [1m[36mDose Create (0.1ms)[0m  [1m[32mINSERT INTO "doses" ("description", "cocktail_id", "ingredient_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["description", "6cl"], ["cocktail_id", 8], ["ingredient_id", 7], ["created_at", "2023-11-19 15:19:11.197806"], ["updated_at", "2023-11-19 15:19:11.197806"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mDose Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "doses" WHERE "doses"."cocktail_id" = $1 AND "doses"."ingredient_id" = $2 LIMIT $3[0m  [["cocktail_id", 8], ["ingredient_id", 7], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mIngredient Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "ingredients" WHERE "ingredients"."name" = $1 LIMIT $2[0m  [["name", "rhum"], ["LIMIT", 1]]
+  [1m[36mIngredient Create (0.0ms)[0m  [1m[32mINSERT INTO "ingredients" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "rhum"], ["created_at", "2023-11-19 15:19:11.198521"], ["updated_at", "2023-11-19 15:19:11.198521"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mDose Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "doses" WHERE "doses"."cocktail_id" = $1 AND "doses"."ingredient_id" = $2 LIMIT $3[0m  [["cocktail_id", 8], ["ingredient_id", 8], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mIngredient Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "ingredients" WHERE "ingredients"."name" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mIngredient Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "ingredients" WHERE "ingredients"."name" = $1 LIMIT $2[0m  [["name", "Lemon"], ["LIMIT", 1]]
+  [1m[36mIngredient Create (0.0ms)[0m  [1m[32mINSERT INTO "ingredients" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Lemon"], ["created_at", "2023-11-19 15:19:11.200287"], ["updated_at", "2023-11-19 15:19:11.200287"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mIngredient Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "ingredients" WHERE "ingredients"."name" = $1 LIMIT $2[0m  [["name", "Lemon"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCocktail Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "cocktails" WHERE "cocktails"."name" = $1 LIMIT $2[0m  [["name", "Lemon"], ["LIMIT", 1]]
+  [1m[36mCocktail Create (0.0ms)[0m  [1m[32mINSERT INTO "cocktails" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Lemon"], ["created_at", "2023-11-19 15:19:11.201741"], ["updated_at", "2023-11-19 15:19:11.201741"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mIngredient Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "ingredients" WHERE "ingredients"."name" = $1 LIMIT $2[0m  [["name", "ice"], ["LIMIT", 1]]
+  [1m[36mIngredient Create (0.1ms)[0m  [1m[32mINSERT INTO "ingredients" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "ice"], ["created_at", "2023-11-19 15:19:11.202251"], ["updated_at", "2023-11-19 15:19:11.202251"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mDose Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "doses" WHERE "doses"."cocktail_id" = $1 AND "doses"."ingredient_id" = $2 LIMIT $3[0m  [["cocktail_id", 9], ["ingredient_id", 10], ["LIMIT", 1]]
+  [1m[36mDose Create (0.1ms)[0m  [1m[32mINSERT INTO "doses" ("description", "cocktail_id", "ingredient_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["description", "A lot!"], ["cocktail_id", 9], ["ingredient_id", 10], ["created_at", "2023-11-19 15:19:11.202989"], ["updated_at", "2023-11-19 15:19:11.202989"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mIngredient Destroy (0.3ms)[0m  [1m[31mDELETE FROM "ingredients" WHERE "ingredients"."id" = $1[0m  [["id", 10]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK[0m
